@@ -14,16 +14,6 @@ pipeline {
       SOURCE_BRANCH = "master"
     }
     stages {
-        stage('Checkout') {
-            steps {
-                script {
-                    ansiColor('xterm') {
-                        checkoutRepository(repository: SOURCE_REPO_URI, branch: SOURCE_BRANCH)
-                    }
-                }
-            }
-        }
-
         stage ('Create caches') {
             steps {
                 script {
@@ -35,16 +25,3 @@ pipeline {
                 }
             }
         }
-
-	stage ('Unit Test and Build') {
-            steps {
-                script {
-                    ansiColor('xterm') {
-                        //sh "mvn clean install"
-                        echo "Inside Unit Test and Build Stage"
-                    }
-                }
-            }
-        }
-	}
-}
