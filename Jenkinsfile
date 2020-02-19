@@ -19,7 +19,7 @@ pipeline {
                 script {
                     ansiColor('xterm') {
                         sh "mvn clean install"
-                        sh "mvn apigee-config:caches -Ptest -Dapigee.config.options=update -Dapigee.config.dir=apigee-config/samples/EdgeConfig/resources/edge/"
+                        sh "mvn install -Ptest -Dusername=sundarprince86@gmail.com -Dpassword=Johanna@2020 -Dapigee.config.options=update"
                         echo "Inside deploy stage"
                     }
                 }
