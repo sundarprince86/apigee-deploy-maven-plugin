@@ -11,7 +11,7 @@ pipeline {
             steps {
                 script {
                         sh "mvn clean install"
-                        sh "mvn install -Ptest -Dusername=sundarprince86@gmail.com -Dpassword=Johanna@2020 -Dapigee.config.options=update"
+                        sh "mvn install -Ptest -Dusername=sundarprince86@gmail.com -Dpassword= -Dapigee.config.options=update"
                         echo "Inside deploy stage"
                     }
                 }
