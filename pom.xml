@@ -216,7 +216,7 @@
         <dependency>
             <groupId>com.google.http-client</groupId>
             <artifactId>google-http-client</artifactId>
-            <version>1.10.3-beta</version>
+            <version>1.19.0</version>
         </dependency>
         <!-- using sl4j logging wrapping lg4j -->
         <dependency>
@@ -239,7 +239,7 @@
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
-            <version>12.0</version>
+            <version>r03</version>
         </dependency>
         <!-- Gson: Java to Json conversion -->
         <dependency>
