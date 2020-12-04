@@ -216,7 +216,7 @@
         <dependency>
             <groupId>com.google.http-client</groupId>
             <artifactId>google-http-client</artifactId>
-            <version>1.10.3-beta</version>
+            <version>1.28.0</version>
         </dependency>
         <!-- using sl4j logging wrapping lg4j -->
         <dependency>
@@ -258,7 +258,7 @@
         <dependency>
              <groupId>org.eclipse.jgit</groupId>
              <artifactId>org.eclipse.jgit</artifactId>
-            <version>3.3.2.201404171909-r</version>
+            <version>5.1.0.201809111528-r</version>
              <!--<version>1.0.0.201106090707-r</version> -->
         </dependency>
 
