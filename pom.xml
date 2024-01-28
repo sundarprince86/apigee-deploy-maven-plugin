@@ -216,7 +216,7 @@
         <dependency>
             <groupId>com.google.http-client</groupId>
             <artifactId>google-http-client</artifactId>
-            <version>1.10.3-beta</version>
+            <version>1.44.1</version>
         </dependency>
         <!-- using sl4j logging wrapping lg4j -->
         <dependency>
